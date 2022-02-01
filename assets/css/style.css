@@ -1,0 +1,199 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Special+Elite&display=swap");
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Special Elite", cursive;
+}
+/* 
+font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive;
+Font: Special Elite; Exo, sans-serif;
+font-family: 'Special Elite', cursive;
+Farbe: #000, #fff; 
+*/
+
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Exo", sans-serif;
+  padding:1rem 0 0.7rem;
+}
+img {
+  width: 100%;
+}
+a {
+  color: unset;
+  text-decoration: unset;
+}
+a:hover{
+  text-decoration: underline;
+}
+li {
+  list-style: none;
+  padding: 25px;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+p{
+  font-size: 1.2rem;
+  padding-bottom:1rem;
+  line-height:1.2em;
+}
+
+/* Hintergrundbilder  */
+.heroSection {
+  background: url(../img/bg.jpeg) no-repeat center/cover;
+  height: 100vh;
+}
+.helloSection {
+  background: url(../img/beans_icon.png) no-repeat center/cover;
+}
+.helloSection2 {
+  background: url(../img/bridge_1.jpg) no-repeat center/cover fixed;
+  height: 40vh;
+  background-size: cover;
+}
+.menuSection {
+  background: url(../img/cake_icon.png) no-repeat center/cover;
+}
+.menuSection2 {
+  background: url(../img/bridge_2.jpg) no-repeat center/cover fixed;
+  height: 40vh;
+}
+.storySection2 {
+  background: url(../img/bridge_3.jpg) no-repeat center/cover fixed;
+  height: 40vh;
+}
+.cateringSection {
+  background: url(../img/pie_icon.png) no-repeat right/contain;
+}
+.cateringSection2 {
+  background: url(../img/bridge_4.jpeg) no-repeat center/cover fixed;
+    height: 40vh;
+
+}
+.cakesSection {
+  background: url(../img/muffin_icon.png) no-repeat left/contain;
+}
+/* ENDE Hintergrundbilder  */
+
+
+
+
+/* Layout  */
+header{
+  display:block;
+  width:100%;
+  position:fixed;
+  background-color: #fff;
+}
+.displayFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroSection {
+  display: flex;
+  align-items: center;
+}
+.helloSection {
+  display: flex;
+  align-items: center;
+  padding:4rem;
+}
+.helloSection article {
+  width: 40%;
+  margin-left: 7%;
+}
+.storySection {
+  display: flex;
+  justify-content: center;
+  align-items:flex-end ;
+  margin: 7% 0;
+  gap: 5%;
+}
+.storySection .leftArticle {
+  width: 30%;
+}
+.storySection .rightArticle {
+  width: 20%;
+}
+
+
+.cateringSection,
+.cakesSection{
+  align-items: flex-end;
+  padding:7% 0;
+  gap: 5%;
+}
+.cateringSection .leftArticle{
+  width:30%;
+}
+.cateringSection .rightArticle{
+  width:30%;
+}
+.cakesSection .leftArticle{
+  width:30%;
+}
+.cakesSection .rightArticle{
+  width:30%;
+}
+
+footer{
+  text-align: center;
+}
+footer img{
+ width:3%;
+ display: block;
+ margin:0 auto;
+}
+footer .today{
+  width:10%;
+  padding-bottom:2%;
+}
+.toastImg{
+  width:7%;
+}
+
+/* STYLING + TYPOGRAPHY */
+.helloSection article h1 {
+  font-size: 3rem;
+}
+.menuSection {
+  text-align: center;
+}
+h2{
+  font-size:3rem;
+}
+h3{
+  font-size:2.3rem;
+}
+h4{
+  font-size:1.5rem;
+}
+.menuSection{
+  padding:5% 0;
+}
+.borderAround{
+  border:1px solid black;
+  width:30%;
+  padding:1%;
+  margin:1% auto;
+}
+.button{
+  border:1px solid black;
+  text-decoration: none;
+  padding:1%;
+}
+footer {
+  background-color: black;
+  color: white;
+}
